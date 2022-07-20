@@ -1,0 +1,42 @@
+#logo{
+    border: 1px solid black;
+    height: 100px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+    justify-content: space-between;
+    display: flex;
+    padding: 0px 40px;
+}
+#logo>div{
+    border: 1px solid red;
+}
+#logo>div:nth-child(2){
+    width: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#logo>div:nth-child(1)>img{
+    width: 150px;
+}
+#logo>div:nth-child(1){
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#navbar{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+}
+#navbar>div{
+    border: 1px solid black;
+    padding: 0px 8px;
+    font: 16px;
+    font-family: sans-serif;
+    margin: 10px;
+}
+#login,#signup{
+    border-radius: 22px;
+}
