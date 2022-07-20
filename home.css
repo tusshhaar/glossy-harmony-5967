@@ -1,42 +1,167 @@
-#logo{
-    border: 1px solid black;
-    height: 100px;
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    gap: 20px;
-    justify-content: space-between;
-    display: flex;
-    padding: 0px 40px;
-}
-#logo>div{
-    border: 1px solid red;
-}
-#logo>div:nth-child(2){
-    width: 700px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-#logo>div:nth-child(1)>img{
-    width: 150px;
-}
-#logo>div:nth-child(1){
-    width: 250px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-#navbar{
-    display: grid;
-    grid-template-columns: repeat(5,1fr);
-}
-#navbar>div{
-    border: 1px solid black;
-    padding: 0px 8px;
-    font: 16px;
-    font-family: sans-serif;
-    margin: 10px;
-}
-#login,#signup{
-    border-radius: 22px;
-}
+          /* top */
+          #logo {
+              height: 100px;
+              display: grid;
+              grid-template-columns: repeat(3, 1fr);
+              gap: 20px;
+              justify-content: space-between;
+              display: flex;
+              padding: 0px 40px;
+          }
+
+          #logo>div:nth-child(2) {
+              width: 800px;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+          }
+
+          #logo>div:nth-child(1)>img {
+              width: 150px;
+          }
+
+          #logo>div:nth-child(1) {
+              width: 250px;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+          }
+
+          #navbar {
+              display: grid;
+              grid-template-columns: repeat(5, 1fr);
+          }
+
+          #navbar>div {
+              padding: 0px 8px;
+              font: 16px;
+              font-family: 'Poppins', sans-serif;
+              font-weight: 100;
+              margin: 10px;
+          }
+
+          #login,
+          #signup {
+              border-radius: 25px;
+              height: 50px;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+          }
+
+          #signup {
+              background-color: #5846F6;
+              color: white;
+          }
+
+          #login {
+              border: 1px solid #5846F6;
+              color: #5846F6;
+          }
+
+
+
+
+          /* stage -2 */
+
+        h1 {
+            font-size: 36px;
+            font-family: 'Poppins', sans-serif;
+            text-align: start;
+            font-weight: bolder;
+        }
+        h3{
+          font-family: 'Poppins', sans-serif;
+          text-align: start;
+        }
+
+          #stage-2 {
+              /* border: 1px solid black; */
+              height: auto;
+              width: 90%;
+              margin: auto;
+              display: grid;
+              grid-template-columns: repeat(2,1fr);
+              gap: 20px;
+              margin-bottom: 100px;
+              margin-top: 40px;
+          }
+          #stage-2>div:nth-child(1){
+            text-align: justify;
+            margin: 0px auto 0px auto;
+          }
+          #freesign{
+            /* border: 1px solid black; */
+            width: fit-content;
+            padding: 15px 15px;
+            border-radius: 30px;
+            font-size: 16px;
+            font-family: 'Poppins', sans-serif;
+            background-color: #5846F6;
+            color: white;
+            margin-top: 50px;
+          }
+          #stage-2>div>img{
+            width: 500px;
+          }
+          #stage-2>div:nth-child(2){
+            display: flex;
+            justify-content: center;
+            align-items: center;
+          }
+          #stage-2+p{
+            font-family: 'Poppins', sans-serif;
+            font-size: 20px;
+            text-align: center;
+            font-weight: bold;
+          }
+
+          /* Logos Name */
+
+          #logoName{
+            /* border: 1px solid black; */
+            height: auto;
+            width: 80%;
+            margin: auto;
+            display: grid;
+            grid-template-columns: repeat(8,1fr);
+            gap: 10px;
+          }
+          #logoName>div{
+            /* border: 1px solid red; */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+          }
+          #head{
+            text-align: center;
+            margin-top: 80px;
+          }
+          #drag{
+            font-family: 'Poppins', sans-serif;
+            font-size: 20px;
+            text-align: center;
+            font-weight: bold;
+          }
+
+          /* card - 1 */
+          #card-1{
+            /* border: 1px solid black; */
+            height: auto;
+            width: 80%;
+            margin: auto;
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+            gap: 20px;
+          }
+          #card-1>div{
+            /* border: 1px solid red; */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 20px;
+          }
+          #card-1 video{
+            width: 290px;
+            border-radius: 20px;
+          }
