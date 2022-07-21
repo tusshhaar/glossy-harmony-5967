@@ -1,0 +1,18 @@
+#box{
+    height: auto;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 400px 920px;
+    gap: 20px;
+}
+#box>div{
+    border: 1px solid black;
+}
+#side{
+    background-color: red;
+    height: 500px;
+}
+#form{
+    background-color: blue;
+    height: 1000px;
+}
