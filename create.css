@@ -1,0 +1,187 @@
+          /* top */
+          *{
+            font-family: 'Poppins', sans-serif;
+          }
+          #logo {
+            background-color: white;
+              height: 100px;
+              width: 100%;
+              position: fixed;
+              top: 0px;
+              left: 0px;
+              z-index: 1;
+              display: grid;
+              grid-template-columns: repeat(3, 1fr);
+              gap: 20px;
+              justify-content: space-between;
+              display: flex;
+              /* box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
+          }
+          #logo>div{
+            padding: 0px 80px;
+          }
+
+          #logo>div:nth-child(2) {
+              width: 800px;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+          }
+
+          #logo>div:nth-child(1) img {
+              width: 150px;
+          }
+
+          #logo>div:nth-child(1) {
+              width: 250px;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+          }
+
+          #navbar {
+              display: flex;
+          }
+
+          #navbar>div {
+            /* border: 1px solid black; */
+              padding: 0px 5px;
+              font: 16px;
+              font-family: 'Poppins', sans-serif;
+              font-weight: 100;
+              margin: 10px;
+          }
+          a{
+            color: white;
+          }
+          #signup {
+              border-radius: 50px;
+              border: 0px;
+              width: 80px;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+          }
+          #login {
+            border-radius: 40px;
+            width: 70px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        #login p>a{
+          color: #5846F6;
+        }
+        #login p{
+          text-align: center;
+        }
+          #signup {
+              background-color: #5846F6;
+              color: white;
+          }
+
+          #login {
+              border: 1px solid #5846F6;
+              color: #5846F6;
+          }
+          #navbar ul{
+            padding: 0;
+            margin: 0;
+            float: right;
+            margin-right: 10px;
+          }
+          #navbar ul{
+            position: absolute;
+            top: 60px; 
+            text-decoration: none;
+            padding: 20px 20px;
+            box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+          }
+          #navbar li{
+            text-decoration: none;
+            list-style: none;
+          }
+          #navbar ul li a{
+            /* display: inline-flex; */
+            /* margin-left: 40px; */
+            text-decoration: none;
+            line-height: 30px;
+            font-size: 16px;
+            padding: 0px 0px;
+            font-weight: lighter;
+            color: black;
+            /* color: white; */
+          }
+          #navbar ul li a:hover{
+            background: #c0ccda;
+            padding: 0px 20px;
+            /* font-weight: bold; */
+          }
+          #navbar ul{
+            /* position: absolute;
+            top: 60px; */
+            line-height: 30px;
+            display: none;
+            z-index: 20;
+            background-color: white;
+          }
+          #navbar li:hover > ul{
+            display: block;
+          }
+          li>a{
+            color: black;
+          }
+          #lastSign a{
+            color: #5846F6;
+          }
+
+         /* body part -1 */
+
+         #bPart1{
+            /* border: 1px solid black; */
+            width: 85%;
+            margin: auto;
+            margin-top: 200px;
+            height: auto;
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+            gap: 0px;
+         }
+         #bPart1 img{
+            width: 100%;
+         }
+         #bPart1 p{
+            width: 80%;
+         }
+         #bPart1 h3{
+            font-size: 25px;
+            font-weight: lighter;
+         }
+         #freesign{
+            /* border: 1px solid black; */
+            width: fit-content;
+            padding: 15px 15px;
+            border-radius: 30px;
+            font-size: 16px;
+            font-family: 'Poppins', sans-serif;
+            background-color: #5846F6;
+            color: white;
+            margin-top: 20px;
+          }
+
+          /* Body Part - 2 */
+
+          #bPart2{
+            border: 1px solid black;
+            width: 80%;
+            height: 200px;
+            margin: auto;
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+            gap: 20px;
+          }
+          #bPart2>div{
+            border: 1px solid black;
+          }
+          
+          

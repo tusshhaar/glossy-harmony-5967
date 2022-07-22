@@ -25,7 +25,7 @@
               align-items: center;
           }
 
-          #logo>div:nth-child(1)>img {
+          #logo>div:nth-child(1) img {
               width: 150px;
           }
 
@@ -37,27 +37,46 @@
           }
 
           #navbar {
-              display: grid;
-              grid-template-columns: repeat(5, 1fr);
+            /* border: 1px solid black; */
+              display: flex;
+              /* grid-template-columns: repeat(5, 1fr); */
           }
 
           #navbar>div {
-              padding: 0px 8px;
+            /* border: 1px solid black; */
+              padding: 0px 5px;
               font: 16px;
               font-family: 'Poppins', sans-serif;
               font-weight: 100;
               margin: 10px;
           }
-
-          #login,
+          a{
+            color: white;
+          }
+          /* #navbar>div:nth-child(6){
+            width: 100px;
+          } */
           #signup {
-              border-radius: 25px;
-              height: 50px;
+              border-radius: 50px;
+              border: 0px;
+              width: 80px;
               display: flex;
               justify-content: center;
               align-items: center;
           }
-
+          #login {
+            border-radius: 40px;
+            width: 70px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        #login p>a{
+          color: #5846F6;
+        }
+        #login p{
+          text-align: center;
+        }
           #signup {
               background-color: #5846F6;
               color: white;
@@ -67,9 +86,56 @@
               border: 1px solid #5846F6;
               color: #5846F6;
           }
-
-
-
+          #navbar ul{
+            padding: 0;
+            margin: 0;
+            float: right;
+            margin-right: 10px;
+          }
+          #navbar ul{
+            position: absolute;
+            top: 60px; 
+            text-decoration: none;
+            padding: 20px 20px;
+            box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+          }
+          #navbar li{
+            text-decoration: none;
+            list-style: none;
+          }
+          #navbar ul li a{
+            /* display: inline-flex; */
+            /* margin-left: 40px; */
+            text-decoration: none;
+            line-height: 30px;
+            font-size: 16px;
+            padding: 0px 0px;
+            font-weight: lighter;
+            color: black;
+            /* color: white; */
+          }
+          #navbar ul li a:hover{
+            background: #c0ccda;
+            padding: 0px 20px;
+            /* font-weight: bold; */
+          }
+          #navbar ul{
+            /* position: absolute;
+            top: 60px; */
+            line-height: 30px;
+            display: none;
+            z-index: 20;
+            background-color: white;
+          }
+          #navbar li:hover > ul{
+            display: block;
+          }
+          li>a{
+            color: black;
+          }
+          #lastSign a{
+            color: #5846F6;
+          }
 
           /* stage -2 */
 
