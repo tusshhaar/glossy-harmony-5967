@@ -1,18 +1,106 @@
 #box{
-    height: auto;
+    height: 100;
     width: 100%;
-    display: grid;
-    grid-template-columns: 400px 920px;
+    display: flex;
     gap: 20px;
 }
-#box>div{
-    border: 1px solid black;
-}
 #side{
-    background-color: red;
-    height: 500px;
+    background-color: #5846F6;
+    height: 100%;
+    width: 32%;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    /* float: left; */
 }
 #form{
-    background-color: blue;
+    border: 1px solid black;
+    background-color: white;
+    width: 68%;
+    margin: auto;
+    margin-left: 450px;
     height: 1000px;
+}
+#logo{
+    /* border: 1px solid black; */
+    height: auto;
+    width: 80%;
+    /* margin: auto; */
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    /* gap: 5px; */
+    margin-top: 50px;
+    
+}
+#logo>div{
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#logo img{
+    width: 65%;
+}
+#side{
+    font-family: 'Poppins', sans-serif;
+}
+#side>h1,img,h2{
+    margin-left: 40px;
+    color: white;
+}
+#side>img{
+    width: 150px;
+    margin-top: 20px;
+}
+#side>h1{
+    font-size: 50px;
+    line-height: 60px;
+    margin-top: 0px
+}
+#form>h1{
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+}
+input[type="text"],
+input[type="password"]{
+    width: 600px;
+    border: none;
+    height: 30px;
+    outline: none;
+    font-size: 20px;
+    border-bottom: 1px solid rgb(153, 147, 147);
+    margin-top: 30px;
+    margin-bottom: 20px;
+    
+}
+form{
+    font-family: 'Poppins', sans-serif;
+    margin-top: 80px;
+}
+#form{
+    /* margin: auto; */
+    padding-left: 10%;
+}
+input[type="submit"]{
+    width: 600px;
+    border-radius: 20px;
+    margin-top: 50px;
+    padding: 10px;
+    border: 0px;
+    background-color: #5846F6;
+    color: white;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+}
+button{
+    width: 600px;
+    border-radius: 20px;
+    margin-top: 50px;
+    padding: 10px;
+    border: 1px solid #5846F6;
+    background-color: white;
+    /* background-color: #5846F6; */
+    color: #5846F6;
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif; 
 }
