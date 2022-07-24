@@ -1,5 +1,5 @@
 let images = [
-    "https://c4.wallpaperflare.com/wallpaper/7/761/254/urban-colorful-night-times-square-wallpaper-preview.jpg" ,
+    // "https://c4.wallpaperflare.com/wallpaper/7/761/254/urban-colorful-night-times-square-wallpaper-preview.jpg" ,
 
     "https://wallpaperaccess.com/full/472038.jpg" ,
 

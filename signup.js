@@ -13,6 +13,10 @@ function data(e){
     if(obj.name == "" || obj.email == "" || obj.pass == ""){
         return alert("Something went wrong")
     }
-    signupData.push(obj);
+    else{
+        signupData.push(obj);
     localStorage.setItem("objDetails",JSON.stringify(signupData))
+    alert("Successful")
+    window.location.href = "login.html"
+    }
 }
