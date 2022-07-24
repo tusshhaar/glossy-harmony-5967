@@ -4,13 +4,15 @@ document.getElementById("promotion").addEventListener("click",promotion)
 document.getElementById("culture").addEventListener("click",culture)
 document.getElementById("local").addEventListener("click",local)
 
+
 // function content(){
     // document.getElementById("card2").innerHTML = "";
     
     for(let i=0; i<6; i++){
         let div = document.createElement("div")
-        let image = document.createElement("img")
-        image.setAttribute("src","https://cdn.searchenginejournal.com/wp-content/uploads/2019/08/c573bf41-6a7c-4927-845c-4ca0260aad6b-1520x800.jpeg")
+        let image = document.createElement("video")
+        image.setAttribute("src","https://storage.googleapis.com/lumen5-site-images/homepage/Content%20Marketing/Hydrogen%20Economy.mp4")
+        image.controls = "autoplay"
         div.append(image)
         document.getElementById("card2").append(div)    
     }
@@ -20,8 +22,9 @@ function communication(){
     document.getElementById("card2").innerHTML = "";
     for(let i=0; i<6; i++){
         let div = document.createElement("div")
-        let image = document.createElement("img")
-        image.setAttribute("src","https://img.freepik.com/premium-photo/astronaut-outer-open-space-planet-earth-stars-provide-background-erforming-space-planet-earth-sunrise-sunset-our-home-iss-elements-this-image-furnished-by-nasa_150455-16829.jpg?w=2000")
+        let image = document.createElement("video")
+        image.setAttribute("src","https://storage.googleapis.com/lumen5-site-images/homepage/Communications/Coral%20Reef%20Protection.mp4")
+        image.controls = "autoplay"
         div.append(image)
         document.getElementById("card2").append(div)    
     }
@@ -31,8 +34,9 @@ function promotion(){
     document.getElementById("card2").innerHTML = "";
     for(let i=0; i<6; i++){
         let div = document.createElement("div")
-        let image = document.createElement("img")
-        image.setAttribute("src","https://149695847.v2.pressablecdn.com/wp-content/uploads/2019/07/image_rec_lib_banner.jpg")
+        let image = document.createElement("video")
+        image.setAttribute("src","https://storage.googleapis.com/lumen5-site-images/homepage/Promotional/Remote%20Auditing.mp4")
+        image.controls = "autoplay"
         div.append(image)
         document.getElementById("card2").append(div)    
     }
@@ -42,8 +46,9 @@ function culture(){
     document.getElementById("card2").innerHTML = "";
     for(let i=0; i<6; i++){
         let div = document.createElement("div")
-        let image = document.createElement("img")
-        image.setAttribute("src","https://d27jswm5an3efw.cloudfront.net/app/uploads/2019/07/insert-image-html.jpg")
+        let image = document.createElement("video")
+        image.setAttribute("src","https://storage.googleapis.com/lumen5-site-images/homepage/People%20_%20Culture/Create%20Your%20Future.mp4")
+        image.controls = "autoplay"
         div.append(image)
         document.getElementById("card2").append(div)    
     }
@@ -53,8 +58,9 @@ function local(){
     document.getElementById("card2").innerHTML = "";
     for(let i=0; i<6; i++){
         let div = document.createElement("div")
-        let image = document.createElement("img")
-        image.setAttribute("src","https://ik.imagekit.io/ikmedia/backlit.jpg")
+        let image = document.createElement("video")
+        image.setAttribute("src","https://storage.googleapis.com/lumen5-site-images/homepage/Localization/DNV%20GL.mp4")
+        image.controls = "autoplay"
         div.append(image)
         document.getElementById("card2").append(div)    
     }
@@ -64,8 +70,9 @@ function content(){
     document.getElementById("card2").innerHTML = "";
     for(let i=0; i<6; i++){
         let div = document.createElement("div")
-        let image = document.createElement("img")
-        image.setAttribute("src","https://cdn.searchenginejournal.com/wp-content/uploads/2019/08/c573bf41-6a7c-4927-845c-4ca0260aad6b-1520x800.jpeg")
+        let image = document.createElement("video")
+        image.setAttribute("src","https://storage.googleapis.com/lumen5-site-images/homepage/Content%20Marketing/Hydrogen%20Economy.mp4")
+        image.controls = "autoplay"
         div.append(image)
         document.getElementById("card2").append(div)    
     }

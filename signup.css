@@ -111,3 +111,6 @@ button{
 #terms{
     font-size: 12px;
 }
+input[type="submit"]:hover{
+    background: rgb(136, 127, 127);
+}
